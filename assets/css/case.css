@@ -180,6 +180,7 @@ table.t th { font-size: 13px; color: var(--text-tertiary); font-weight: 400; }
 .next-card.tago { background: var(--project-tago); }     .next-card.tago .title { color: var(--tago-heading); }
 .next-card.iptv { background: var(--project-iptv); }     .next-card.iptv .title { color: var(--iptv-heading); }
 .next-card.thesis { background: var(--project-thesis); } .next-card.thesis .title { color: var(--thesis-heading); }
+.next-card.v2v { background: var(--project-v2v); } .next-card.v2v .title { color: var(--v2v-heading); }
 
 /* ---------- 작은 요소 ---------- */
 .note { font-size: 13px; color: var(--text-tertiary); margin-top: 14px; }

@@ -23,11 +23,13 @@
   --project-tago:   #cfddf2;
   --project-iptv:   #ddd6f3;
   --project-thesis: #edefc2;
+  --project-v2v:    #f7d6e0;
 
   --review-heading: #0f4b35;
   --tago-heading:   #2b4c78;
   --iptv-heading:   #4a3f7c;
   --thesis-heading: #5f5418;
+  --v2v-heading:    #7a2e4c;
 
   /* layout */
   --gnb-h: 72px;
@@ -123,6 +125,7 @@ section { scroll-margin-top: calc(var(--gnb-h) + 24px); }
 .dot.tago   { background: var(--project-tago); }
 .dot.iptv   { background: var(--project-iptv); }
 .dot.thesis { background: var(--project-thesis); }
+.dot.v2v    { background: var(--project-v2v); }
 
 /* language switch */
 .lang {
@@ -205,6 +208,8 @@ section { scroll-margin-top: calc(var(--gnb-h) + 24px); }
 .card.tago   .title { color: var(--tago-heading); }
 .card.iptv   .title { color: var(--iptv-heading); }
 .card.thesis .title { color: var(--thesis-heading); }
+.card.v2v { background: var(--project-v2v); }
+.card.v2v .title { color: var(--v2v-heading); }
 
 /* wide cards (EN) */
 .cards-wide { display: flex; flex-direction: column; gap: 16px; }
@@ -233,6 +238,8 @@ section { scroll-margin-top: calc(var(--gnb-h) + 24px); }
 .card-wide.tago   .title { color: var(--tago-heading); }
 .card-wide.iptv   .title { color: var(--iptv-heading); }
 .card-wide.thesis .title { color: var(--thesis-heading); }
+.card-wide.v2v { background: var(--project-v2v); }
+.card-wide.v2v .title { color: var(--v2v-heading); }
 
 /* ---------- footer ---------- */
 .site-footer { margin-top: 120px; border-top: 1px solid var(--border-soft); }
@@ -300,3 +307,6 @@ section.flash { animation: flash 1.6s ease; }
   display: grid; place-items: center;
 }
 .video-frame.playing .play-btn { display: none; }
+
+/* emphasis inside case-study body text (body/lg-strong) */
+.t-em { font-weight: 500; }
